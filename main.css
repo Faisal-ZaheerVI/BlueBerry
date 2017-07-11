@@ -205,3 +205,31 @@ DROPDOWN MENU
 
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
 .show {display:block;}
+
+
+
+/*************************
+INTERNSHIPS
+*************************/
+
+.intships {
+    margin: auto;
+    width: 60%;
+    text-align: center;
+}
+
+.intships li {
+    list-style: none;
+}
+
+.intships h3 {
+    margin-top: 25px;
+}
+
+.intships h3 em {
+    font-weight: 100;
+}
+
+.intships h4 {
+    
+}
