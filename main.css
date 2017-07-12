@@ -81,7 +81,7 @@ nav ul {
 }
 
 nav li {
-    display: inline-block;  Makes links in line with one another 
+    display: inline-block;  /*Makes links in line with one another*/
 }
 
 nav a {
