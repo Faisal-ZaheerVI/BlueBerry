@@ -3,7 +3,7 @@
 <h3> The Team </h3>
 David - SCRUMmaster <br>
 Michelle - Content Editor <br>
-Brian - Lead Editor <br>
+Brian - Lead Designer <br>
 Faisal - Lead Developer
 <br>
 <h2> To-Do List </h2>
