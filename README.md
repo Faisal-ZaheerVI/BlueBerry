@@ -1,10 +1,10 @@
-<h1> Resource Website </h1>
+<h1> Project BlueBerry - Resource Website </h1>
 <hr>
-<h3> The Team - BlueCal </h3>
-David - (Insert role) <br>
-Michelle - (Insert role) <br>
-Brian - (Insert role) <br>
-Faisal - (Insert role)
+<h3> The Team </h3>
+David - SCRUMmaster <br>
+Michelle - Content Editor <br>
+Brian - Lead Editor <br>
+Faisal - Lead Developer
 <br>
 <h2> To-Do List </h2>
 <ul>
@@ -19,4 +19,7 @@ Faisal - (Insert role)
 <li>5 Medical Jobs</li>
 <br>
 <li>10 Volunteer opportunities</li>
+<br>
+<li>Layout About page</li>
+<br>
 </ul>
