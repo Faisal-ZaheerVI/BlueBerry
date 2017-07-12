@@ -8,24 +8,15 @@ Faisal - (Insert role)
 <br>
 <h2> To-Do List </h2>
 <ul>
-    <li>Home</li>
-    
-    <ul>
-        <li>Decide what page will look like</li>
-    </ul>
-
-    <li>Internships</li>
-    
-    <ul>
-        <li>5 Technology Internships</li>
-        <li>5 Business Internships</li>
-        <li>5 Medical Internships</li>
-        <li>Get updated internships</li>
-    </ul>
-
-    <li>Jobs</li>
-
-    <li>Volunteer</li>
-
-    <li>About</li>
+<li>Decide what Home page will look like</li>
+<br>
+<li>5 Technology internships</li>
+<li>5 Business internships</li>
+<li>5 Medical internships</li>
+<br>
+<li>5 Technology Jobs</li>
+<li>5 Business Jobs</li>
+<li>5 Medical Jobs</li>
+<br>
+<li>10 Volunteer opportunities</li>
 </ul>
