@@ -42,7 +42,7 @@ header {
     /* Text is centered */
     text-align: center;
     /* Np spacing around edges */
-    margin: 0;
+    margin-left: -20px;
 }
 
 h1 {
