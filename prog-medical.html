@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         
-        <title>Technology Internships | Resource Website</title>
+        <title>Medical Programs | Resource Website</title>
         
         <link rel="stylesheet" href="normalize.css">
         
@@ -18,70 +18,54 @@
         
     </head>
     <body>
+
+        <!-- Heading -->
         <header>
             <a href="index.html" id="logo">
                 <h1><img src="imgs/bblogo.png" alt="BlueBerry logo" style="width:200px;height:67px;"></h1>
             </a>
+            
+            <!-- navigate to different programs, jobs, etc. "class = selected for page that user is on." -->
             <nav>
                 <ul>
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="internships.html" class="selected">Internships</a></li>
+                    <li><a href="internships.html">Internships</a></li>
                     <li><a href="jobs.html">Jobs</a></li>
                     <li><a href="volunteer.html">Volunteer</a></li>
-                    <li><a href="programs.html">Programs</a></li>
+                    <li><a href="programs.html" class="selected">Programs</a></li>
                     <li><a href="about.html">About</a></li>
                 </ul>
             </nav>
+
         </header>
+
         <section>
+
             <!-- DROPDOWN MENU FOR CAREER FIELDS -->
             <center>
                 <div class="dropdown">
                     <button onclick="myFunction()" class="dropbtn">Explore Career Fields</button>
                     <div id="myDropdown" class="dropdown-content">
-                        <a href="techPrograms.html">Technology</a>
-                        <a href="businessPrograms.html">Business</a>
-                        <a href="medPrograms.html">Medical</a>
+                        <a href="prog-technology.html">Technology</a>
+                        <a href="prog-business.html">Business</a>
+                        <a href="prog-medical.html">Medical</a>
                     </div>
                 </div>
             </center>
-            <ul class="intships">
-                <hr>
-                <!-- to be filled out -->
-                <li>
-                    <h3> TITLE <em> @ Location</em></h3>
-                    <p><b>Timeframe:</b> _____</p>
-                    <p><b>Paid:</b> (Unpaid or amount)</p>
-                    <h4>Description</h4>
-                    <p>~~~~~~~~~~</p>
-                    <h4>Requirements</h4>
-                    <p>~~~~~~~~~~</p>
-                    <h4>Contact Info</h4>
-                    <p>~~~~~~~~~~</p>
-                </li>
 
-                <hr>
-<!--                Opportunity Info Template-->
-<!--
-                <li>
-                    <h3> TITLE <em> @ Location</em></h3>
-                    <p><b>Timeframe:</b> _____</p>
-                    <p><b>Paid:</b> (Unpaid or amount)</p>
-                    <h4>Description</h4>
-                    <p>~~~~~~~~~~</p>
-                    <h4>Requirements</h4>
-                    <p>~~~~~~~~~~</p>
-                    <h4>Contact Info</h4>
-                    <p>~~~~~~~~~~</p>
-                </li>
--->
+            <ul class="intships">
+                
             </ul>
+        
         </section>
+
+        <!-- SocialMedia links at bottom of page -->
         <footer>
             <a href="https://twitter.com/"><img src="imgs/twitter-wrap.png" alt="Twitter Logo" class="social-icon"></a>
             <a href="https://www.facebook.com/"><img src="imgs/facebook-wrap.png" alt="Facebook Logo" class="social-icon"></a>
-            <p>&copy; 2017 BlueCal.</p>
+            <p>&copy; 2017 BlueBerry</p>
         </footer>
+
         <script src="javascript.js"></script>
     </body>
 </html>
