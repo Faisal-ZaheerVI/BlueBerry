@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
 /*************************
 GENERAL
 *************************/
@@ -30,23 +32,8 @@ h3 {
 /*************************
 HEADING
 *************************/
-
-header {
-    float: left;
-    margin: 0 0 30px 0; /* Top, right, bottom, left aka starts on top and goes clockwise*/
-    padding: 5px 0 0 0;
-    width: 100%;
-}
-
-#logo {
-    /* Text is centered */
-    text-align: center;
-    /* Np spacing around edges */
-    margin-left: -20px;
-}
-
 h1 {
-    font-family: 'Changa One', sans-serif; /* If Changa One not present, it goes to sans serif */
+    font-family: 'Open Sans', sans-serif; /* If Changa One not present, it goes to sans serif */
     margin: 15px 0; /* 15px above and below and 0 for left and right */
     /* em is a relative unit of measurement - 1 em is about 16px */
     font-size: 1.75em;
@@ -65,26 +52,59 @@ h2 {
 /*************************
 NAVIGATION
 *************************/
-
-nav {
-    text-align: center;
-    padding: 10px 0;
-    margin: 20px 0 0;
+#navBarCont {
+    width: 100%;
+    background-color:#3f5374;
 }
 
-nav ul {
+#forHead{
+    width: 960px;
+    height:60px;
+    margin: 0px auto 0px auto;
+}
+a.home{
+    float:left; 
+    margin-left:10px; 
+    line-height: 1;
+    font-size:26px; 
+    color:#ffffff ; 
+    letter-spacing:-0.05em;
+}
+#navBar a.home:hover {
+
+    color:#ffffff ; 
+
+}
+#navBar {
+    background-color:#3f5374;
+    display:block;
+    width:960px;
+    height:60px;
+}
+
+ul.mainNav {
     list-style: none;
-    margin: 0;
+    margin: 0px;
+    padding: 0px;
+    width:auto;
+    height:36px;
+    float:right;
+    line-height: 3.8;
     /* 0 on top/bottom and 10px on left/right */
 /*    margin: 0 10px;*/
-    padding: 0;
 }
 
-nav li {
-    display: inline-block;  /*Makes links in line with one another*/
+ul.mainNav li{
+
+    margin:-1px;
+    padding:0px;
+    float:left;
+    width:auto;
+    height:45px;
+    display: list-item;  /*Makes links in line with one another*/
 }
 
-nav a {
+#navBar a {
     font-weight: 800;
     padding: 15px 10px;  
 }
@@ -127,8 +147,8 @@ header {
 }
 
 /* Nav background on mobile devices */
-nav {
-    background: #999;
+#navBar {
+    background: #3f5374;
 /*    background: #599a68;*/
 }
 
@@ -139,20 +159,21 @@ h1, h2 {
 
 /* Links */
 a {
+    font-family:'Open Sans';
     /* Hexadecimal value - Goes 0123456789abcdef for 16 values */
     /* First two characters for Red, then Green, then Blue */
 /*    color: #6ab47b;*/
 }
 
 /* Nav link */
-nav a, nav a:visited {
-    color: darkcyan;
+#navBar a, #navBar a:visited {
+    color: #ffffff;
 }
 
 /* Any anchor inside the nav that has the class "selected" applied to it will get these style decorations - Selected nav link */
-nav a.selected, nav a:hover {
+#navBar a.selected, #navBar a:hover {
 /*    color: #32673f;*/
-    color: deepskyblue;
+    color: #a0a0a0;
 }
 
 
@@ -163,7 +184,7 @@ DROPDOWN MENU
 
 /* Dropdown Button */
 .dropbtn {
-    background-color: darkturquoise;
+    background-color: #3f5374;
     color: white;
     padding: 16px;
     font-size: 16px;
@@ -174,7 +195,7 @@ DROPDOWN MENU
 
 /* Dropdown button on hover & focus */
 .dropbtn:hover, .dropbtn:focus {
-    background-color: darkcyan;
+    background-color: #2a3549;
 }
 
 /* The container <div> - needed to position the dropdown content */
@@ -208,8 +229,80 @@ DROPDOWN MENU
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
 .show {display:block;}
 
+/*************************
+HOME
+*************************/
+#displayContainer{
+    width:800px;
 
+}
+.mySlides{
 
+    display:none;
+    height: 400px;
+    max-width: 800px;
+    margin:0 auto;
+    width: 100%;
+    background-position: center;
+
+}
+.center{
+    text-align: center;
+}
+.arrowButtonleft{
+    color:#ffffff;
+    background-color: #3f5374;
+    position: absolute;
+    top: 300px;
+    left:250px; 
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+.arrowButtonleft:hover{
+    background-color: #2a3549;
+}
+
+.arrowButtonright{
+    color:#ffffff;
+    background-color: #3f5374;
+    position: absolute;
+    top: 300px;
+    right:250px; 
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+.arrowButtonright:hover{
+    background-color: #2a3549;
+}
+
+.sector{
+    margin-top: 16px;
+    margin-bottom: 16px; 
+
+}
+.buttonNum{
+    color:#ffffff;
+    background-color: #3f5374;
+    border: none;
+}
+.buttonNum:hover{
+    background-color: #2a3549;
+}
+._current{
+    background-color: #2a3549;
+}
+.welcome{
+    display:block;
+    background-color: transparent;
+    width:100px;
+    height:100px;
+    color:#ffffff;
+    top:50%;
+
+}
 /*************************
 PAGE: HOME
 *************************/
@@ -270,7 +363,7 @@ PAGE: ABOUT
 *************************/
 
 .about{
-    color: darkcyan;
+    color: #3f5374;
 }
 
 .container-1 {

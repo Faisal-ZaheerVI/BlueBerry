@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        
+        <script type="text/javascript" src="javascript.js"></script>
         <title>Home | Resource Website</title>
         
         <link rel="stylesheet" href="normalize.css">
@@ -21,6 +21,7 @@
 
         <!-- Heading -->
         <header>
+<<<<<<< HEAD
             <a href="index.html" id="logo">
                 <h1><img src="imgs/logo.png" alt="BlueBerry logo" style="width:200px;height:67px;"></h1>
             </a>
@@ -44,14 +45,61 @@
             <div class="homebox">Hello there.</div>
             
             <div class="homebg2"></div>
+=======
+            <div id="navBarCont">
+                <div id ="forHead">
+                <!-- navigate to different programs, jobs, etc. "class = selected for page that user is on." -->
+                    <div id ="navBar"> 
+                        <a class="home" href ="index.html">
+                                <strong>blue</strong>berry
+                        </a>
+                        <ul class="mainNav">   
+                            <li><a href="index.html" class="selected">Home</a></li>
+                            <li><a href="internships.html">Internships</a></li>
+                            <li><a href="jobs.html">Jobs</a></li>
+                            <li><a href="volunteer.html">Volunteer</a></li>
+                            <li><a href="programs.html">Programs</a></li>
+                            <li><a href="about.html">About</a></li>
+                        </ul>
+                    </div>
+                <div> 
+            </div>
+        </header>
+
+
+        <section>
+            <div class ="displayContainer">
+                <div class ="displayContainer">
+                    <img class ="mySlides" src="imgs/blueberryinhands.png">
+                </div>
+                <div class ="displayContainer">
+                    <img class ="mySlides" src="imgs/studentssmiling.png">
+                </div>
+                <div class ="displayContainer">
+                    <img class ="mySlides" src="imgs/blueberryinhands.png">
+                </div>
+            </div>
+            <div class="center">
+                <div class="sector">
+                    <button class="arrowButtonleft" onclick="plusDivs(-1)">&#10094;</button>
+                    <button class="arrowButtonright" onclick="plusDivs(1)">&#10095;</button>
+                </div>
+                <button class="buttonNum _current" onclick="currentDiv(1)">1</button> 
+                <button class="buttonNum " onclick="currentDiv(2)">2</button> 
+                <button class="buttonNum " onclick="currentDiv(3)">3</button> 
+            </div>            
+            <script>
+                carousel();
+            </script>
+>>>>>>> d1320400cbd338d789051293fa57238dad97ba80
         </section>
 
         <!-- SocialMedia links at bottom of page -->
         <footer>
             <a href="https://twitter.com/"><img src="imgs/twitter-wrap.png" alt="Twitter Logo" class="social-icon"></a>
             <a href="https://www.facebook.com/"><img src="imgs/facebook-wrap.png" alt="Facebook Logo" class="social-icon"></a>
-            <p>&copy; 2017 BlueBerry</p>
+            <p>&copy; 2017 blueberry</p>
         </footer>
-
+       <script src="javascript.js"></script>
     </body>
 </html>
