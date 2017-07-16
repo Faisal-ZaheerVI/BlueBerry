@@ -27,6 +27,10 @@ h3 {
     margin: 0 0 1em 0;
 }
 
+.extraspace {
+    margin-top: 60px;
+}
+
 
 
 /*************************
@@ -230,26 +234,26 @@ DROPDOWN MENU
 .show {display:block;}
 
 /*************************
-HOME
+PAGE: HOME
 *************************/
-#displayContainer{
-    width:800px;
 
+#displayContainer {
+    width: 800px;
 }
-.mySlides{
 
+.mySlides {
     display:none;
     height: 400px;
     max-width: 800px;
     margin:0 auto;
     width: 100%;
     background-position: center;
-
 }
-.center{
+
+.center {
     text-align: center;
 }
-.arrowButtonleft{
+.arrowButtonleft {
     color:#ffffff;
     background-color: #3f5374;
     position: absolute;
@@ -260,11 +264,11 @@ HOME
     border: none;
 }
 
-.arrowButtonleft:hover{
+.arrowButtonleft:hover {
     background-color: #2a3549;
 }
 
-.arrowButtonright{
+.arrowButtonright {
     color:#ffffff;
     background-color: #3f5374;
     position: absolute;
@@ -274,37 +278,66 @@ HOME
     font-size: 16px;
     border: none;
 }
+
 .arrowButtonright:hover{
     background-color: #2a3549;
 }
 
-.sector{
+.sector {
     margin-top: 16px;
     margin-bottom: 16px; 
-
 }
-.buttonNum{
+
+.buttonNum {
     color:#ffffff;
     background-color: #3f5374;
     border: none;
 }
-.buttonNum:hover{
+
+.buttonNum:hover {
     background-color: #2a3549;
 }
-._current{
+
+._current {
     background-color: #2a3549;
 }
-.welcome{
+
+.welcome {
     display:block;
     background-color: transparent;
     width:100px;
     height:100px;
     color:#ffffff;
     top:50%;
-
 }
+
+.homebg1 {
+    background-image: url('imgs/studentssmiling.png');
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.homebg2 {
+    background-image: url('imgs/blueberryinhands.png');
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.homebox {
+    height: 400px;
+    background-color: #fff;
+}
+
+
+
 /*************************
-INTERNSHIPS
+PAGE: INTERNSHIPS, JOBS, etc.
 *************************/
 
 .intships {
@@ -330,7 +363,7 @@ INTERNSHIPS
 }
 
 /*************************
-ABOUT
+PAGE: ABOUT
 *************************/
 
 .about{
