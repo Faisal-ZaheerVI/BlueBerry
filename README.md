@@ -8,18 +8,9 @@ Faisal - Lead Developer
 <br>
 <h2> To-Do List </h2>
 <ul>
-<li>Decide what Home page will look like</li>
+<li>Finish Home page text box(s)</li>
 <br>
-<li>5 Technology internships</li>
-<li>5 Business internships</li>
-<li>5 Medical internships</li>
-<br>
-<li>5 Technology Jobs</li>
-<li>5 Business Jobs</li>
-<li>5 Medical Jobs</li>
-<br>
-<li>10 Volunteer opportunities</li>
-<br>
-<li>Layout About page</li>
+<li>Delete empty templates</li>
+<li>Add any remaining opportunities</li>
 <br>
 </ul>
