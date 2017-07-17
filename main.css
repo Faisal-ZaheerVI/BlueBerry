@@ -386,7 +386,6 @@ PAGE: INTERNSHIPS, JOBS, etc.
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    opacity: 0.7;
 }
 
 .inttext {
@@ -396,6 +395,27 @@ PAGE: INTERNSHIPS, JOBS, etc.
     font-family: sans-serif;
     font-weight: bolder;
     padding-top: 220px;
+    color: #fff;
+    text-shadow: 2px 2px 10px #000;
+}
+
+.jobshome {
+    background-image: url('imgs/jobshome.jpg');
+    min-height: 500px;
+/*    background-attachment: fixed;*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.jobstext {
+    text-align: center;
+    margin: 0;
+    font-size: 100px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    padding-top: 180px;
+    padding-right: 8em;
     color: #fff;
     text-shadow: 2px 2px 10px #000;
 }
